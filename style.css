@@ -1,0 +1,94 @@
+body, ul {
+    margin: 0;
+}
+
+.tamanio {
+    font-size: 40px;
+    color: red;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+}
+
+li {
+    padding: 1.2rem;
+}
+
+li:hover {
+    background-color: white;
+    color: black;
+}
+
+a:hover {
+    background-color: red;
+}
+
+a:active {
+    background-color: blueviolet;
+    color: beige;
+}
+
+.flex-padre{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box img {
+    max-width: 100%;
+}
+
+span {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+p {
+    display: inline;
+}
+
+.contenedora {
+    display: flex;
+
+}
+
+.div-hijo {
+    height: 150px;
+    width: 150px;
+    background-color: bisque;
+}
+
+/* Etiqueta Padre */
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+/* Etiquetas hijas */
+.box {
+    width: 25%;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+}
+
+.hijo-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+
